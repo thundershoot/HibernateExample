@@ -16,8 +16,8 @@ public class App
         session.beginTransaction();
         Stock stock = new Stock();
         
-        stock.setStockCode("9846");
-        stock.setStockName("DHFD");
+        stock.setStockCode("1234");
+        stock.setStockName("ASDF");
         
         session.save(stock);
         session.getTransaction().commit();
